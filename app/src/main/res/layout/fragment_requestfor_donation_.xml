@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    tools:context=".Ui.fragment.RequestforDonation_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/name"
+                android:textSize="@dimen/text_size_s" />
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_ed_ege"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/eage"
+                android:textSize="@dimen/text_size_s" />
+
+            <Spinner
+                android:id="@+id/Fragment_Request_Dontaion_Sp_blood"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/kindblood"
+                android:textSize="@dimen/text_size_s" />
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/numbers"
+                android:textSize="@dimen/text_size_s" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/Fragment_Request_Dontaion_ed_Elmansuora"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/s"
+                    android:layout_marginRight="@dimen/s"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:textSize="@dimen/text_size_s" />
+
+                <Spinner
+                    android:id="@+id/Fragment_Request_Dontaion_sp_goverment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/s"
+                    android:layout_marginLeft="@dimen/s"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:textSize="@dimen/text_size_s" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_ed_Hospital"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/hospital"
+                android:textSize="@dimen/text_size_s" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Fragment_Request_Dontaion_Tv_titel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_weight="5"
+                    android:background="@drawable/edittext"
+                    android:hint="@string/Hospitaladdress" />
+
+                <ImageView
+                    android:id="@+id/Fragment_Request_Dontaion_place"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/ss"
+                    android:layout_marginLeft="@dimen/ss"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext"
+                    android:src="@drawable/place" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_ed_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/phone"
+                android:textSize="@dimen/text_size_s" />
+
+            <EditText
+                android:id="@+id/Fragment_Request_Dontaion_ed_notes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xxxl"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:background="@drawable/edittext"
+                android:hint="@string/Notes" />
+
+            <Button
+                android:id="@+id/Fragment_Request_Dontaion_Button_sendrequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:layout_marginBottom="@dimen/l"
+                android:background="@color/move"
+                android:text="@string/sendrequest"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_m" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

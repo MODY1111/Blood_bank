@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/creatnewacount_tolpar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xxxx"
+            android:background="#DDECE9E9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/creatnewacount"
+                android:textColor="#000"
+                android:textSize="@dimen/text_size_xs"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/creatnewacount_tolpar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:id="@+id/Creat_new_acount_EditText_name_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/l"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext"
+                    android:hint="@string/name"
+                    android:textSize="@dimen/text_size_s" />
+
+                <EditText
+                    android:id="@+id/Creat_new_acount_EditText_email_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext"
+                    android:hint="@string/email"
+                    android:textSize="@dimen/text_size_s" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext">
+
+                    <Spinner
+                        android:id="@+id/Creat_new_acount_sp_kindblood_Fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Creat_new_acount_Text_Date_birth_Fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/ss"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        android:drawableEnd="@drawable/hbth"
+
+                        android:hint="@string/datebirth"
+                        android:textSize="@dimen/text_size_s"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/Creat_new_acount_Text_Lastdate_Fragment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/ss"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        android:drawableEnd="@drawable/hbth"
+                        android:hint="@string/lastdate"
+                        android:textSize="@dimen/text_size_s"
+                        tools:ignore="RtlCompat" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/s"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        tools:ignore="RtlCompat">
+
+                        <Spinner
+                            android:id="@+id/Creat_new_acount_Spinner_Governorate_Fragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/ss"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext"
+                        tools:ignore="RtlCompat">
+
+                        <Spinner
+                            android:id="@+id/Creat_new_acount_Spinner_City_Fragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/Creat_new_acount_EditText_Phone_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext"
+                    android:hint="@string/phone_number"
+                    android:textSize="@dimen/text_size_s" />
+
+                <EditText
+                    android:id="@+id/Creat_new_acount_EditText_password_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext"
+                    android:hint="كلمه المرور"
+                    android:textSize="@dimen/text_size_s" />
+
+                <EditText
+                    android:id="@+id/Creat_new_acount_EditText_ConfirmPassword_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xxxl"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:background="@drawable/edittext"
+                    android:hint="@string/password_sure"
+                    android:textSize="@dimen/text_size_s" />
+
+                <Button
+                    android:id="@+id/Creat_new_acount_Button_Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/l"
+                    android:layout_marginTop="@dimen/m"
+                    android:layout_marginEnd="@dimen/l"
+                    android:layout_marginBottom="@dimen/l"
+                    android:background="@color/move"
+                    android:text="@string/create"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_m" />
+            </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

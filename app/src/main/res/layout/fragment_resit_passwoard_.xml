@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    tools:context=".Ui.fragment.ResitPasswoard_Fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bloodbank_Resitpasswoard_immage"
+        android:layout_width="@dimen/xxxxl"
+        android:layout_height="@dimen/xxxxl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/ll"
+        android:src="@drawable/splashlogo" />
+
+    <TextView
+        android:id="@+id/bloodbank_Resitpasswoard_tv_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloodbank_Resitpasswoard_immage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x"
+        android:text="@string/changepasswoard"
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_xs" />
+
+    <EditText
+        android:id="@+id/bloodbank_Resitpasswoard_ed_pin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx"
+        android:layout_below="@id/bloodbank_Resitpasswoard_tv_pin"
+        android:layout_marginTop="@dimen/ll"
+        android:layout_marginEnd="@dimen/x"
+        android:layout_marginStart="@dimen/x"
+        android:hint="@string/pinconfirm"
+        android:background="@drawable/edittext" />
+    <EditText
+        android:id="@+id/bloodbank_Resitpasswoard_ed_code"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx"
+        android:layout_below="@id/bloodbank_Resitpasswoard_ed_pin"
+        android:layout_marginTop="@dimen/l"
+        android:layout_marginEnd="@dimen/x"
+        android:layout_marginStart="@dimen/x"
+        android:hint="@string/newpasswoard"
+        android:background="@drawable/edittext"/>
+    <EditText
+        android:id="@+id/forgetpasswoard_edittext_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx"
+        android:layout_below="@id/bloodbank_Resitpasswoard_ed_code"
+        android:layout_marginTop="@dimen/l"
+        android:layout_marginEnd="@dimen/x"
+        android:layout_marginStart="@dimen/x"
+        android:hint="@string/confirmpass"
+        android:background="@drawable/edittext"/>
+    <Button
+        android:id="@+id/bloodbank_resitpasswoard_butn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx"
+        android:layout_below="@id/forgetpasswoard_edittext_confirm"
+        android:layout_marginStart="@dimen/x"
+        android:layout_marginEnd="@dimen/x"
+        android:layout_marginTop="@dimen/x"
+        android:background="@drawable/grenedittext"
+        android:text="@string/changepass"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_xs"
+        android:textStyle="bold"/>
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

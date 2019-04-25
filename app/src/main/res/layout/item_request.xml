@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:id="@+id/Item_Request"
+    android:background="@drawable/rectangler"
+    android:layout_marginTop="@dimen/m">
+
+
+    <TextView
+        android:id="@+id/BB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle"
+        android:layout_marginStart="@dimen/ss"
+        android:gravity="center"
+        android:text="@string/b"
+        android:textSize="@dimen/text_size_xxssss"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/ss"
+         android:layout_toEndOf="@id/BB"
+        android:layout_toStartOf="@+id/Buttons"
+        android:layout_marginTop="@dimen/s"
+        android:layout_marginBottom="@dimen/s"
+        android:layout_marginLeft="@dimen/ss"
+        android:layout_toRightOf="@id/BB"
+        android:layout_toLeftOf="@+id/Buttons">
+
+        <TextView
+            android:id="@+id/dontaion_text_name_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="@dimen/text_size_sss"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/ss"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/dontaion_hospital_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_sss"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/s"
+            android:text="@string/hospital"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/donation_city_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/s"
+            android:text="@string/elmadena"
+            android:textSize="@dimen/text_size_sss"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Buttons"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/m"
+        android:layout_marginTop="@dimen/m"
+        android:layout_marginBottom="@dimen/s"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/m">
+
+        <Button
+            android:id="@+id/_donation_detals_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignTop="@+id/Buttons"
+            android:layout_weight="1"
+            android:background="@color/rosasydark"
+            android:text="التفاصيل"
+            android:textSize="@dimen/text_size_m"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/donation_button_call_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="اتصال"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_m"
+            android:textStyle="bold"
+            android:background="@color/green"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

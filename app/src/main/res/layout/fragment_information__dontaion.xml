@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/information_dontaion_fram"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.fragment.Information_DontaionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:hint="@string/name_ahmed"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_ege"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/age"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_blood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/kind_blood"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginEnd="@dimen/l"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/numbers"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_Hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/hospital"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_Hospital_titel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/hospital_pleace"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/m"
+                android:layout_marginTop="@dimen/l"
+                android:layout_marginEnd="@dimen/m" />
+
+            <TextView
+                android:id="@+id/Fragment_Requestdontioninformation_Phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:text="@string/elgwal_phone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_s" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="@dimen/m"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/m"
+                android:background="@drawable/edittext">
+
+                <TextView
+                    android:id="@+id/Fragment_Requestdontioninformation_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="@dimen/ss"
+                    android:text="@string/details" />
+
+                <TextView
+                    android:id="@+id/Fragment_Requestdontioninformation_Text_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/m"
+                    android:text="هذا النص بتفاصيل" />
+            </RelativeLayout>
+
+            <fragment
+                android:id="@+id/information_dontaion_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/m"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/m" />
+
+            <Button
+                android:id="@+id/Fragment_Requestdontioninformation_Button_Call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/l"
+                android:layout_marginTop="@dimen/m"
+                android:layout_marginRight="@dimen/l"
+                android:layout_marginBottom="@dimen/l"
+                android:background="@drawable/grenedittext"
+                android:drawableLeft="@drawable/etsal"
+                android:text="@string/call"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

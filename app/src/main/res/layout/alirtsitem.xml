@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/xxxxx"
+    android:background="#2222">
+    <ImageView
+        android:id="@+id/notificatoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/s"
+        android:src="@drawable/nafication"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/Alerts_tv_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/s"
+        android:layout_toStartOf="@id/notificatoin"
+        android:text="@string/notifacation_brivet"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/Alerts_date_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/s"
+        android:text="الاربعاء2/5/2018"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/Alerts_clock_item"
+        android:layout_width="@dimen/x"
+        android:layout_height="@dimen/x"
+        android:layout_alignBottom="@+id/notificatoin"
+        android:layout_marginStart="-20dp"
+        android:layout_toEndOf="@id/Alerts_clock_item"
+        android:src="@drawable/clock"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
+
+</RelativeLayout>

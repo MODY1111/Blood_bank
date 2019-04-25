@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s">1dp</dimen>
+    <dimen name="ss">2dp</dimen>
+    <dimen name="ssss">4dp</dimen>
+    <dimen name="ssssssss">8dp</dimen>
+    <dimen name="m">16dp</dimen>
+    <dimen name="x">20dp</dimen>
+    <dimen name="xl">40dp</dimen>
+    <dimen name="l">24dp</dimen>
+    <dimen name="xxl">100dp</dimen>
+    <dimen name="ll">32dp</dimen>
+    <dimen name="xxxl">48dp</dimen>
+    <dimen name="xxxx">56dp</dimen>
+    <dimen name="xxxxx">65dp</dimen>
+    <dimen name="mxl">200dp</dimen>
+    <dimen name="xxxxxl">255dp</dimen>
+    <dimen name="xxxxl">148dp</dimen>
+    <dimen name="xxxxxxml">150dp</dimen>
+
+
+    //////sp
+
+    <dimen name="text_size_ssss">8sp</dimen>
+    <dimen name="text_size_sss">10sp</dimen>
+    <dimen name="text_size_ss">12sp</dimen>
+    <dimen name="text_size_s">14sp</dimen>
+    <dimen name="text_size_m">16sp</dimen>
+    <dimen name="text_size_l">18sp</dimen>
+    <dimen name="text_size_xs">20sp</dimen>
+    <dimen name="text_size_xxs">22sp</dimen>
+    <dimen name="text_size_xxxs">24sp</dimen>
+    <dimen name="text_size_xssss">26sp</dimen>
+    <dimen name="text_size_xxssss">28sp</dimen>
+    <dimen name="splash_image">200dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="imagePadding">10dp</dimen>
+    <dimen name="xxxxxxxxxl">255dp</dimen>
+    <dimen name="xxxxxxl">148dp</dimen>
+
+
+</resources>

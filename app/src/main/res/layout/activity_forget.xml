@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash2"
+    tools:context=".Ui.actvity.ForgetActivity">
+
+    <ImageView
+        android:id="@+id/bloodbank_forgetpassword_image"
+        android:layout_width="@dimen/xxxxl"
+        android:layout_height="@dimen/xxxxl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/xxxx"
+        android:src="@drawable/splashlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodbank_forgetpassword_image"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/x"
+        android:text="@string/fotgetpasswoard"
+        android:textColor="#000"
+        android:textSize="@dimen/text_size_xs" />
+
+    <EditText
+        android:id="@+id/bloodbank_forgetpasswoard_edittextphone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxl"
+        android:layout_below="@+id/bloodbank_forgetpassword_image"
+        android:layout_marginStart="@dimen/x"
+        android:layout_marginTop="@dimen/xxxxx"
+        android:layout_marginEnd="@dimen/x"
+        android:text="@string/phonenumber"
+        android:background="@drawable/edittext" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxl"
+        android:layout_below="@id/bloodbank_forgetpasswoard_edittextphone"
+        android:layout_marginStart="@dimen/x"
+        android:layout_marginTop="@dimen/ll"
+        android:layout_marginEnd="@dimen/x"
+        android:textColor="#FDFCFF"
+        android:textSize="@dimen/text_size_xs"
+        android:background="@drawable/grenedittext"
+        android:text="@string/send" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/s"
+    android:layout_marginTop="@dimen/s"
+    android:layout_marginEnd="@dimen/s"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/s">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtTitle_favorit_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ImageView_favorit_fragment_add"
+            android:layout_alignBottom="@id/ImageView_favorit_fragment_add"
+            android:gravity="center_vertical"
+            android:text="@string/Thewaytopreventdisease"
+            android:textSize="@dimen/text_size_l"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ImageView_favorit_fragment_add"
+            android:layout_width="@dimen/ll"
+            android:layout_height="@dimen/ll"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/m"
+            android:src="@drawable/love"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ImageView_favorit_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxxxxl"
+        android:layout_marginTop="@dimen/m" />
+</LinearLayout>
+

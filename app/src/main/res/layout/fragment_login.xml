@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.fragment.LoginFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash2">
+
+        <ImageView
+            android:id="@+id/bloodbank_login_image"
+            android:layout_width="@dimen/xxxxl"
+            android:layout_height="@dimen/xxxxl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/xxxxx"
+            android:src="@drawable/splashlogo" />
+
+        <EditText
+            android:id="@+id/bloodbank_login_edittext_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xxxl"
+            android:layout_below="@id/bloodbank_login_image"
+            android:layout_marginStart="@dimen/x"
+            android:layout_marginTop="@dimen/ll"
+            android:layout_marginEnd="@dimen/x"
+            android:background="@drawable/edittext" />
+
+        <EditText
+            android:id="@+id/bloodbank_login_edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xxxl"
+            android:layout_below="@id/bloodbank_login_edittext_phone"
+            android:layout_marginStart="@dimen/x"
+            android:layout_marginTop="@dimen/x"
+            android:layout_marginEnd="@dimen/x"
+            android:background="@drawable/edittext" />
+
+        <RelativeLayout
+            android:id="@+id/relativ_chek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bloodbank_login_edittext_password"
+            android:layout_marginStart="@dimen/l"
+            android:layout_marginTop="@dimen/l"
+            android:layout_marginEnd="@dimen/l">
+
+            <ImageView
+                android:layout_width="@dimen/x"
+                android:layout_height="@dimen/x"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/s"
+                android:layout_toStartOf="@+id/Fragment_Text_Forgetpassword"
+                android:src="@drawable/eror"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/Fragment_Text_Forgetpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="هل نسيت كلمه المرور"
+                android:textSize="@dimen/text_size_m"
+                tools:ignore="RtlCompat" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:buttonTint="@color/blue"
+                android:checked="true"
+                android:layoutDirection="rtl"
+                android:text="@string/rememberme"
+                tools:ignore="RtlCompat" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/Loginactvity_Button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativ_chek"
+            android:layout_marginStart="@dimen/l"
+            android:layout_marginTop="@dimen/ll"
+            android:layout_marginEnd="@dimen/l"
+            android:background="@drawable/grenedittext"
+            android:gravity="center"
+            android:text="@string/login_text"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/Loginactvity_Button_Creat_new_Acount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Loginactvity_Button_login"
+            android:layout_marginStart="@dimen/l"
+            android:layout_marginTop="@dimen/l"
+            android:layout_marginEnd="@dimen/l"
+            android:background="@drawable/belu_edit_text"
+            android:gravity="center"
+            android:text="@string/creat_pasword"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+
+</FrameLayout>

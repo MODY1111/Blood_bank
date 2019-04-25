@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".Ui.fragment.Call_UsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/l"
+                    android:src="@drawable/splashlogo" />
+
+                <LinearLayout
+                    android:id="@+id/call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/m"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/logo"
+                    android:layout_marginTop="@dimen/l"
+                    android:layout_marginRight="@dimen/m">
+
+
+                    <TextView
+                        android:id="@+id/Fragment_callus_tv_phone"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/m"
+                        android:layout_marginLeft="@dimen/m"
+                        android:layout_toEndOf="@id/call"
+                        android:layout_toRightOf="@id/call"
+                        android:drawableRight="@drawable/ic_call_black_24dp"
+                        android:text="الجوال"
+
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_m"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/phoneText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mmmmmmmmm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/m"
+                    android:layout_below="@id/call"
+                    android:layout_marginTop="@dimen/s"
+                    android:layout_marginRight="@dimen/m">
+
+
+                    <TextView
+                        android:id="@+id/Fragment_callus_tv_email"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/m"
+                        android:layout_marginLeft="@dimen/m"
+                        android:layout_weight="1"
+                        android:drawableRight="@drawable/ic_mail_outline_black_24dp"
+                        android:text="@string/email"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_m"
+                        android:textStyle="bold"
+                        tools:ignore="UnknownId" />
+
+                    <TextView
+                        android:id="@+id/mailText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/social"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mmmmmmmmm"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/x"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_google"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/google_plus" />
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_watsap"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/watsap" />
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_insta"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/insta" />
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_youtube"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/youtube" />
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_twiter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/tiwt" />
+
+                    <ImageView
+                        android:id="@+id/Fragment_callus_facbook"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/face" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/contenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ll"
+                    android:layout_below="@id/social"
+                    android:background="@color/move"
+                    android:gravity="center"
+                    android:text="@string/contactus"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_m"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ma7shy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contenu"
+                    android:layout_marginTop="@dimen/m"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/Fragment_callus_ed_massege"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/xxxl"
+                        android:layout_marginStart="@dimen/m"
+                        android:layout_marginTop="@dimen/m"
+                        android:layout_marginEnd="@dimen/m"
+                        android:hint="@string/titeladress"
+
+                        android:background="@drawable/edittext" />
+
+                    <EditText
+                        android:id="@+id/Fragment_callus_ed_details_massege"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="@dimen/m"
+                        android:layout_marginTop="@dimen/m"
+                        android:layout_marginEnd="@dimen/m"
+                        android:hint="@string/massege_content"
+
+                        android:background="@drawable/edittext" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Fragment_callus_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ma7shy"
+                    android:layout_margin="@dimen/m"
+                    android:background="@color/move"
+                    android:text="@string/send"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_m"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+</FrameLayout>
