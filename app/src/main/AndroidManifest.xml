@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.blood_bank">
+    package="com.example.blood_bank_mo">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -9,6 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -32,15 +33,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Ui.actvity.MapsActivity"
+            android:name="com.example.blood_bank_mo.Ui.actvity.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
         <activity
-            android:name=".Ui.actvity.blood_navigationActivity"
+            android:name="com.example.blood_bank_mo.Ui.actvity.blood_navigationActivity"
             android:label="@string/title_activity_blood_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Ui.actvity.Skip_ctivity" />
-        <activity android:name=".Ui.actvity.User_Activity" />
-        <activity android:name=".Ui.actvity.SplashActivity">
+        <activity android:name="com.example.blood_bank_mo.Ui.actvity.Skip_ctivity" />
+        <activity android:name="com.example.blood_bank_mo.Ui.actvity.User_Activity" />
+        <activity android:name="com.example.blood_bank_mo.Ui.actvity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

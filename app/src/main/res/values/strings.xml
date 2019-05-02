@@ -81,4 +81,6 @@
     <string name="save">حفظ</string>
     <string name="textsitingnotification">هذا النص هوا مثال لنص يمكن ان يستبدل في نفس المساحه,لقد تم توليد هذا النص من مولد النص العربي,حيث يمكنك ان تولد مثل هذا النص او العديد من النصوص الاخري</string>
     <string name="title_activity_maps">Map</string>
+    <string name="gomylocatio">gomylocatio</string>
+    <string name="areyousuretologoutapp">هل تريد الخروج من التطبيق؟</string>
 </resources>

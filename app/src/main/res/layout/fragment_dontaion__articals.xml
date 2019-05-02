@@ -5,6 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Ui.fragment.Artical_dontaion.Dontaion_ArticalsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_keypoard">
 
     <LinearLayout
         android:id="@+id/linear"
@@ -59,5 +63,5 @@
         android:layout_marginTop="@dimen/m">
 
     </android.support.v7.widget.RecyclerView>
-
+    </RelativeLayout>
 </RelativeLayout>

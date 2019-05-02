@@ -7,7 +7,8 @@
     tools:context=".Ui.fragment.Call_UsFragment">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/contactus_keypoard">
 
 
         <android.support.v4.widget.NestedScrollView
